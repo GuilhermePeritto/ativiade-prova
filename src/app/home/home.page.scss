@@ -1,27 +1,35 @@
-#container {
-  text-align: center;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+.buttons {
+  display: flex;
+  justify-content: space-between;
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.buttons ion-button {
+  fill: transparent;
+  background-color: transparent;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+ion-card {
+  margin: 16px;
+  background-color: transparent;
 }
 
-#container a {
-  text-decoration: none;
+.buttonlimpar {
+  width: 100%;
+}
+
+.container-filtro {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.label {
+  display: flex;
+  gap: 5px;
+}
+
+.ibagem {
+  display: flex;
+  justify-content: center ;
 }

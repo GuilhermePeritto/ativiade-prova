@@ -1,20 +1,51 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title>Hotelaria ADS5</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Encontrar estadias</ion-card-title>
+    </ion-card-header>
+    <ion-card-content class="container-filtro">
+      <ion-input labelPlacement="stacked" fill="outline" label="Cidade de interesse">
+        <ion-icon name="location" slot="start"></ion-icon>
+      </ion-input>
+      <ion-input labelPlacement="stacked" fill="outline" label="Nome da hospedagem">
+        <ion-icon name="bed" slot="start"></ion-icon>
+      </ion-input>
+      <div class="buttons">
+        <ion-button fill="clear" expand="block">Buscar</ion-button>
+        <ion-button fill="clear" class="buttonlimpar" expand="block">Limpar Pesquisa</ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <ion-card>
+    <p>Estadias localizadas</p>
+    <div class="ibagem">
+    <img src="https://media-cdn.tripadvisor.com/media/video-t/2a/db/d5/4f/marambaia-hotel-conventions-1.jpg" alt="Imagem do hotel" />
   </div>
+    <ion-card-header>
+      <ion-card-title>Hotel Açores</ion-card-title>
+      <ion-card-subtitle>Balneário Camboriú</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <div class="label">
+        <ion-icon name="wallet" slot="start"></ion-icon>
+        <p>R$ 325,00</p>
+      </div>
+      <div class="label">
+        <ion-icon name="calendar" slot="start"></ion-icon>
+        <p>05/12/2024</p>
+      </div>
+      <ion-icon name="star" color="warning"></ion-icon>
+      <ion-icon name="star" color="warning"></ion-icon>
+      <ion-icon name="star" color="warning"></ion-icon>
+      <ion-icon name="star" color="warning"></ion-icon>
+      <ion-icon name="star" color="medium"></ion-icon>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
