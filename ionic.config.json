@@ -1,0 +1,7 @@
+{
+  "name": "ativiade-prova",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
